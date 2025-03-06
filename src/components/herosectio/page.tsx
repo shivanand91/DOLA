@@ -1,4 +1,3 @@
-import Link from "next/link";
 import LibCard from "../libcard/page";
 
 export default function HeroSection() {

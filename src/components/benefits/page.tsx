@@ -8,17 +8,17 @@ export default function BenefitsOfDOLA() {
         { 
             title: "Pay Per Hour System", 
             description: "Aap jitni der library me rahenge, bas utna hi pay karna hoga.", 
-            image: "/assets/access.webp" 
+            // image: "/assets/access.webp" 
         },
         { 
             title: "One Card for All Libraries", 
             description: "Ek hi card se aap multiple libraries ko access kar sakte hain.", 
-            image: "/assets/access.webp" 
+            // image: "/assets/access.webp" 
         },
         { 
             title: "Secure Digital Transactions", 
             description: "Secure UPI, Card Payments, aur Digital Wallets ke through recharge karein.", 
-            image: "/assets/access.webp" 
+            // image: "/assets/access.webp" 
         },
     ];
 
@@ -33,11 +33,11 @@ export default function BenefitsOfDOLA() {
                         key={index} 
                         className="bg-white shadow-lg rounded-xl p-4 transform transition duration-300 hover:scale-105"
                     >
-                        <img 
+                        {/* <img 
                             src={benefit.image} 
                             alt={benefit.title} 
                             className="w-16 h-16 mx-auto mb-2"
-                        />
+                        /> */}
                         <h3 className="text-lg font-semibold text-gray-900">{benefit.title}</h3>
                         <p className="text-gray-600 text-sm">{benefit.description}</p>
                     </div>

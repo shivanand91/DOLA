@@ -5,9 +5,9 @@ export default function Footer() {
         <div className="bg-gray-800 text-white p-4">
             <div className="text-center flex flex-col items-center">
                 <h1 className="text-4xl font-bold mb-3 mt-4">Get your DOLA Card today!</h1>
-                <p>"Unlock Unlimited Learning with XXXX! 📚"</p>
+                <p>Unlock Unlimited Learning with XXXX! 📚</p>
                 <p>Access libraries across INDIA with a single DOLA Rechargeable Card. Pay only for the hours you study!</p>
-                <Link href="#" className="mt-4 mb-6 py-1 border-2 border-[#14152169] px-4 rounded-full hover:bg-[#8a93fbe4] hover:text-[#0c0d14e4] shadow-amber-50 shadow bg-transparent ">Get Started</Link>
+                <Link href="#" className="mt-4 mb-6 py-1 border-2 border-[#14152169] px-4 rounded-full hover:bg-[#8a93fbe4] hover:text-[#0c0d14e4] shadow-amber-50 shadow bg-transparent">Get Started</Link>
             </div>
 
             <div className="text-center justify-center items-center m-4">

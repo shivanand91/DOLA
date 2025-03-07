@@ -17,7 +17,7 @@ export default function Header() {
             <ul className="hidden md:flex md:gap-4">
                 <Link href="/" className="hover:underline">Home</Link>
                 <Link href="#" className="hover:underline">Libraries</Link>
-                <Link href="#" className="hover:underline">Pricing</Link>
+                <Link href="/pricing" className="hover:underline">Pricing</Link>
                 <Link href="#" className="hover:underline">How it Works?</Link>
                 <Link href="#" className="hover:underline">About us</Link>
                 <Link href="#" className="hover:underline">Contact us</Link>
